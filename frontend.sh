@@ -11,7 +11,7 @@ unzip /tmp/frontend.zip #&>>/tmp/roboshop.log
 
 # cp Users/apple/git-repos/shell-scripts/roboshop.conf /etc/nginx/default.d/roboshop.conf &>>/tmp/roboshop.log
 
-systemctl enable nginx &>>/tmp/roboshop.log
-systemctl start nginx &>>/tmp/roboshop.log 
+systemctl enable nginx #&>>/tmp/roboshop.log
+systemctl start nginx #&>>/tmp/roboshop.log 
 
 # C:\Users\apple\git-repos\shell-scripts\roboshop.conf
